@@ -1,5 +1,5 @@
 # Visual Semantic Contextualization Network for Multi-Query Image Retrieval
-PyTorch implementation for IEEE TMM 2025 paper [Visual Semantic Contextualization Network for Multi-Query Image Retrieval](https:) by Zhong Ji$^*$, Zhihao Li$^*$, Yan Zhang, Yanwei Pang, Xuelong Li.
+PyTorch implementation for IEEE TMM 2025 paper Visual Semantic Contextualization Network for Multi-Query Image Retrieval by Zhong Ji*, Zhihao Li*, Yan Zhang, Yanwei Pang, Xuelong Li.
 ## Requirements
 - Setup a conda environment and install some prerequisite packages including
 ```
@@ -12,7 +12,7 @@ python -m nltk.downloader all	   # Install NLTK data
 ## Data
 Refer [DrillDown](https://github.com/uvavision/DrillDown) to download images, features and annotations of Visual Genome.
 
-Download `DrillDown/data/caches` from [DrillDown](https://github.com/uvavision/DrillDown) and put the directory under `VSCN/data`
+Download `DrillDown/data/caches` from [DrillDown](https://github.com/uvavision/DrillDown) and put the directory under `VSCN/data`.
 
 Download [CLIP-encoded visual and textual features](https://drive.google.com/drive/folders/1GySNYatVjhx5EJl-EnyIojmD90Ibs4bn?usp=sharing) of Visual Genome.
 
@@ -71,7 +71,7 @@ data
 python train.py --max_turns 10 --sample_option True --dropped_ratio 0.1
 ```
 ## Evaluation
-Please rename the saved checkpoint (Best performance on the validation set) as `model_best.pth.tar`, then run the evaluation script.
+Please rename the saved checkpoint (the one with the best performance on the validation set) as `model_best.pth.tar`, then run the evaluation script.
 
 - Evaluate VSCN
 ```
