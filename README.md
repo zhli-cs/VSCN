@@ -1,5 +1,5 @@
 # Visual Semantic Contextualization Network for Multi-Query Image Retrieval
-PyTorch implementation for IEEE TMM 2025 paper Visual Semantic Contextualization Network for Multi-Query Image Retrieval by **Zhong Ji***, **Zhihao Li***, Yan Zhang, Yanwei Pang, Xuelong Li.
+PyTorch implementation for IEEE TMM 2025 paper “Visual Semantic Contextualization Network for Multi-Query Image Retrieval” by **Zhong Ji***, **Zhihao Li***, Yan Zhang, Yanwei Pang, Xuelong Li.
 ## Requirements
 - Setup a conda environment and install some prerequisite packages including
 ```
