@@ -80,8 +80,14 @@ python evaluation.py
 ## Acknowledgment
 This codebase is partially based on [DrillDown](https://github.com/uvavision/DrillDown) and [HMRN](https://github.com/zhli-cs/HMRN).
 
-<!-- ## Citation
+## Citation
 If you find our paper/code useful, please cite the following paper:
 ```
-TO be finished...
-``` -->
+@article{ji2025visual,
+  title={Visual Semantic Contextualization Network for Multi-Query Image Retrieval},
+  author={Ji, Zhong and Li, Zhihao and Zhang, Yan and Pang, Yanwei and Li, Xuelong},
+  journal={IEEE Transactions on Multimedia},
+  year={2025},
+  publisher={IEEE}
+}
+```
