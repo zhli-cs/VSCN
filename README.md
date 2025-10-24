@@ -87,6 +87,8 @@ If you find our paper/code useful, please cite the following paper:
   title={Visual Semantic Contextualization Network for Multi-Query Image Retrieval},
   author={Ji, Zhong and Li, Zhihao and Zhang, Yan and Pang, Yanwei and Li, Xuelong},
   journal={IEEE Transactions on Multimedia},
+  volume={27},
+  pages={7067--7080},
   year={2025},
   publisher={IEEE}
 }
